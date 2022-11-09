@@ -3,18 +3,26 @@ body {
     font-family:Georgia, Times, 'Times New Roman', serif;
 }
 
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .assignment {
-    display:flex;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     background: #C75228;
     border-radius: 40px;
+    width: 22%;
 }
 
 .assignment img {
-    width: 200px;
-    padding: 10px;
-    border: 4px solid #FBB88A
+    width: 175px;
+    padding: 10px 10px;
+    display: block;
+    margin: auto;
+    border: 4px solid #FBB88A;
+    
 }
 
 .assignment img:hover {
@@ -26,6 +34,9 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
 h1:hover {
     color: #ff0048;
     text-align: center;
